@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:wght@100;200;300;400;500;600;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:wght@100;300;400;500;700&family=Rubik+Vinyl&family=Unbounded:wght@200;300;400;500;600;700;800;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: #efefef;
+  font-family: "Roboto";
+}
+
+body {
+  font-family: "poppins";
+  background-color: #227c70;
+}
+
+main {
+  height: 100vh;
+}
+
+header {
+  background-color: #1c315ebb;
+}
+
+nav {
+  width: 90%;
+  margin: 0 auto;
+  padding: 10px 0;
+
+  display: flex;
+  align-items: center;
+}
+
+.logo a {
+  font-size: 2rem;
+  font-family: "Poppins";
+}
+
+.navi {
+  list-style: none;
+
+  flex-grow: 1;
+
+  display: flex;
+  justify-content: center;
+  column-gap: 40px;
+}
+
+.navi a {
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 1.2rem;
+}
+
+.search-box {
+  display: flex;
+}
+
+input[type="search"] {
+  border: none;
+  outline: none;
+  padding: 8px 16px;
+  background: #efefef;
+  border-radius: 4px 0 0 4px;
+  font-size: 1.1rem;
+}
+
+input[type="submit"] {
+  border: none;
+  padding: 8px 16px;
+  background: #88a47c;
+  border-radius: 0 4px 4px 0;
+  color: #efefef;
+  font-size: 1.1rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.active {
+  color: #f8f988;
+}
+
+@media screen and (max-width: 900px) {
+  nav {
+    flex-wrap: wrap;
+    justify-content: space-between;
+    row-gap: 20px;
+    padding: 20px 0;
+  }
+  .navi {
+    order: 3;
+    flex-basis: 100%;
+  }
+} ;

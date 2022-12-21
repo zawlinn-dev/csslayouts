@@ -1,0 +1,143 @@
+/* Font Installation */
+
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:wght@100;200;300;400;500;600;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:wght@100;300;400;500;700&family=Rubik+Vinyl&family=Unbounded:wght@200;300;400;500;600;700;800;900&display=swap");
+
+/* All Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 10px;
+}
+
+body {
+  background-color: #fff;
+  color: #242038;
+
+  font-family: "Roboto";
+}
+
+a {
+  text-decoration: none;
+}
+
+main {
+  height: 100vh;
+  padding: 4rem 0;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  padding: 5rem;
+  border-radius: 1rem;
+  box-shadow: 0 0 35px #bbb;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+}
+
+.title_head {
+  font-family: "Unbounded";
+  font-size: 2.5rem;
+
+  letter-spacing: 1px;
+  margin-bottom: 3rem;
+}
+
+.login {
+  /* width: 100%; */
+  align-self: stretch;
+
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+}
+
+.form-control {
+  border: none;
+  border: 1px solid #ccc;
+  border-radius: 1rem;
+
+  outline: none;
+  background: transparent;
+  padding: 1rem 1.5rem;
+  font-size: 1.7rem;
+}
+
+.form-control::placeholder {
+  letter-spacing: 1px;
+  color: #555;
+}
+
+input[type="submit"] {
+  padding: 1rem 0;
+  cursor: pointer;
+
+  border: none;
+  border-radius: 1rem;
+
+  font-size: 1.7rem;
+  font-weight: 600;
+
+  background-color: #725ac1;
+  color: #f7ece1;
+}
+
+.connect_msg {
+  font-size: 1.2rem;
+  font-family: "Poppins";
+  word-spacing: 0.5rem;
+  letter-spacing: 0.1rem;
+  /* font-variant: small-caps; */
+}
+
+.social_connect {
+  align-self: stretch;
+
+  display: flex;
+  gap: 1rem;
+}
+
+.btn {
+  padding: 1rem 2rem;
+  color: #fff;
+  border-radius: 0.5rem;
+  font-size: 1.5rem;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+
+.btn_facebook {
+  background: #4267b2;
+}
+
+.btn_twitter {
+  background-color: #1da1f2;
+}
+
+.btn_google {
+  background-color: #ff6347;
+}
+
+.forget a {
+  font-size: 1.3rem;
+  color: #4267b2;
+  font-family: "Poppins";
+}
+
+.signUp {
+  font-family: "Poppins";
+  font-size: 1.2rem;
+}
+
+.signUp a {
+  font-size: 1.4rem;
+}
