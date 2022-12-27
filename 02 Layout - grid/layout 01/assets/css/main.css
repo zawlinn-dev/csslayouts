@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:wght@100;200;300;400;500;600;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:wght@100;300;400;500;700&family=Rubik+Vinyl&family=Unbounded:wght@200;300;400;500;600;700;800;900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 10px;
+}
+
+body {
+  font-family: "Roboto";
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+.container {
+  min-height: 100vh;
+  padding: 4rem 2rem;
+
+  display: grid;
+  gap: 4rem;
+  grid-template-columns: repeat(auto-fit, 28rem);
+  place-content: center center;
+}
+
+.cards {
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 1rem;
+  padding: 2rem;
+
+  display: grid;
+  gap: 2rem;
+}
+
+.card_head {
+  display: grid;
+  gap: 1rem;
+}
+
+.card_title {
+  font-size: 2.3rem;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+
+.card_txt {
+  color: #00000099;
+  font-size: 1.4rem;
+}
+
+.price_container {
+  display: grid;
+  gap: 1rem;
+
+  font-size: 1.2rem;
+}
+
+.price_txt {
+  font-size: 1.4rem;
+  font-weight: 500;
+}
+
+.payment {
+  padding: 1rem 2rem;
+  background: #0d64b6;
+  color: #fff;
+  text-align: center;
+  border-radius: 0.9rem;
+  font-size: 1.4rem;
+  font-family: "Poppins";
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+.Strater,
+.Business,
+.Extended {
+  background: #18027a;
+}
+
+.old {
+  color: #2e292999;
+  text-decoration: line-through 3px #2e292999;
+  margin-right: 0.5rem;
+}
+
+.card_footer {
+  display: grid;
+  grid-template-rows: repeat(6, 4rem);
+  align-items: center;
+
+  font-size: 1.5rem;
+}
+
+.✘ {
+  color: red;
+}
+
+.✓ {
+  color: rgb(3, 95, 3);
+}
